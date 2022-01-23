@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="restfull:war">
+    <output-path>$PROJECT_DIR$/restfull/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>restfull</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="restfull-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="restfull:war exploded" />
+    </root>
+  </artifact>
+</component>
